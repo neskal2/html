@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>forms</title>
+  </head>
+  <body>
+    <h1>formularios</h1>
+    <form action="PAGINA_DESTINO.htmml" method="post"></form>
+    <span>
+      <h3>Insira seu nome</h3>
+      <input type="text" placeholder="ex:juliano" />
+    </span>
+    <span>
+      <h3>Insira seu email</h3>
+      <input type="email" placeholder="ex:exemplo123@gmail.com" />
+    </span>
+    <span>
+      <h3>Insira seu numero de telefone (com ddd)</h3>
+      <input type="number" placeholder="ex:(12) 912345678" />
+    </span>
+    <span
+      ><h3>Você esta trabalhando?</h3>
+      <input type="radio" id="sim, eu trabalho" name="1" />
+      <label for="sim, eu trabalho">Sim, eu trabalho</label>
+      <input type="radio" id="não, estou desempregado" name="1" />
+      <label for="não, estou desempregado">Não, estou desempregado</label>
+      <input type="radio" id="não, estou estudando" name="1" />
+      <label for="não, estou estudando">Não, estou estudando</label>
+    </span>
+    <span>
+      <h3>Qual seu estado civil?</h3>
+      <input type="radio" id="Souteiro" name="2" />
+      <label for="Souteiro">Souteiro</label>
+      <input type="radio" id="Casado" name="2" />
+      <label for="Casado">Casado</label>
+      <input type="radio" id="Divorciado" name="2" />
+      <label for="Divorciado">Divorciado</label>
+    </span>
+    <span>
+      <h3>Como você ficou sabendo da nossa empresa?</h3>
+      <select>
+        <option>Redes sociais (Instagram, Facebook, LinkedIn, etc.)</option>
+        <option>Indicação de amigos ou familiares</option>
+        <option>Pesquisa no Google</option>
+        <option>Evento ou feira</option>
+        <option>Outro</option>
+      </select>
+    </span>
+    <span>
+      <h3>se marcou outro especifique</h3>
+      <input type="text" />
+    </span>
+    <p>
+      <input type="checkbox" id="termos" />
+      <label for="termos"
+        >Eu autorizo compartilhar minhas respostas com terceiros?</label
+      >
+    </p>
+    <p>
+      <input type="submit" />
+    </p>
+  </body>
+</html>
